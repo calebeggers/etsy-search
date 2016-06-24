@@ -3,21 +3,121 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cool Project</title>
+    <title>Etsy Search</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <div class="container">
-      <div id="header">
-      </div>
-      <div id="main">
-        <div id="cat-nav">
+      <div id="header"> 
+        <img src="./images/etsy-logo.png">
+        <form action="" class="search-bar">
+          <input type="search" name="Search" placeholder="Search for items or shops" class="search-field">
+          <input type="submit" value="Search" class="search-button">
+        </form>
+        <div class="account-nav">
+          <ul class="account">
+            <li>
+              <a href="#">Sell on Etsy</a>
+            </li>
+            <li>
+              <a href="#">Register</a>
+            </li>
+          </ul>
+          <button class="sign-in">
+            <span>Sign in</span>
+          </button>
+          <div id="cart">
+           <li>
+           <img src="./images/cart.png">
+           </li>
+           <li>
+           <span class="cart-text">Cart</span>
+           </li>
+          </div>
         </div>
       </div>
-      <div id="footer">
+      <div id="cat-nav">
+        <ul class="categories">
+          <li><a href="#">Clothing &amp; Accessories</a></li>
+          <li><a href="#">Jewelry</a></li>
+          <li><a href="#">Craft Supplies &amp; Tools</a></li>
+          <li><a href="#">Weddings</a></li>
+          <li><a href="#">Entertainment</a></li>
+          <li><a href="#">Home &amp; Living</a></li>
+          <li><a href="#">Kids &amp; Baby</a></li>
+          <li><a href="#">Vintage</a></li>
+        </ul>
       </div>
-    </div>
+        <div class="show-results">
+          <span>Show results for:</span>
+        </div>
+        <div id="side-nav">
+          <span>All categories</span>
+          <ul class="side-cats">
+            <li><a href="#">Home &amp; Living</a></li>
+            <li><a href="#">Art &amp; Collectibles</a></li>
+            <li><a href="#">Weddings</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Paper &amp; Party Supplies</a></li>
+            <li><a href="#">Jewelry</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Craft Supplies &amp; Tools</a></li>
+            <li><a href="#">Bags &amp; Purses</a></li>
+            <li><a href="#">Bath &amp; Beauty</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">Books, Movies &amp; Music</a></li>
+            <li><a href="#">Electronics &amp; Accessories</a></li>
+            <li><a href="#">Toys &amp; Games</a></li>
+            <li><a href="#">Pet Supplies</a></li>
+          </ul>
+        </div>
+      <div id="main">
+        <span class="all-cats">
+          <a href="#">All categories</a> > <span>"whiskey"</span>
+        </span>
+        
+      </div>
+      <div id="footer">
+        <div class="related-cats">
+          <div>
+            <span class="related-text">Related to <span class="bold">whiskey</span>
+            </span>
+          </div>
+          <div class="list-box">
+            <ul class="related-lists">
+              <li><a href="#">whiskey glasses</a></li>
+              <li><a href="#">whiskey decanter</a></li>
+              <li><a href="#">bourbon</a></li>
+              <li><a href="#">scotch</a></li>
+            </ul>
+          </div>
+          <div class="list-box">
+            <ul class="related-lists">
+              <li><a href="#">jack daniels</a></li>
+              <li><a href="#">fathers day gift</a></li>
+              <li><a href="#">alcohol</a></li>
+              <li><a href="#">boyfriend gift</a></li>
+            </ul>
+          </div>
+          <div class="list-box">
+            <ul class="related-lists">
+              <li><a href="#">brother gift</a></li>
+              <li><a href="#">mens gift</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="looking-for-shops">
+          <ul class="lfs-ul">
+            <li>Looking for shops?</li>
+            <li><a href="#">WhiskeyDogWares</a>,</li>
+            <li><a href="#">whiskeynweddingbells</a>,</li>
+            <li><a href="#">WhiskeysWhims</a>.</li>
+            <li><a href="#">See more</a>.</li>
+          </ul>
+          <img src="./images/bottom-nav.png">
+        </div>
+      </div>
     <script src="js/bundle.js"></script>
   </body>
 </html>
